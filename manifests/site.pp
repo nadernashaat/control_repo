@@ -4,7 +4,4 @@ file {'/root/README':
   content => 'this is a readme',
   owner   => 'root',
  }
- file { '/root/README':
-   owner => root,
- }
 }
